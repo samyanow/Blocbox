@@ -2,11 +2,11 @@ html, body{
    overflow-x: hidden;
  }
  body {
-   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
    color:#474747;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   font-family: 'Montserrat', sans-serif;
  }
  h2 {
    font-size:28px;
@@ -16,5 +16,29 @@ html, body{
  p {
    font-size:16px;
    line-height: 19px;
-   font-weight: 100;
+   font-weight: 400;
+ }
+
+ /* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
  }
