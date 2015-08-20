@@ -77,14 +77,15 @@ html, body{
  header {
    color:#474747;
    background: #E4F9FF;
-   background-color: #E4F9FF;
+   background-image: url(backgroundguys.jpg);
  }
  header nav {
    padding:1em 0;
  }
  header nav ul {
    display:inline;
-   text-align: left;
+   text-align: right;
+   float:right;
    margin:0;
  }
  header nav ul > li {
