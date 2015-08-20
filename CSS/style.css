@@ -80,8 +80,7 @@ html, body{
  header {
    color:#474747;
    background: #E4F9FF;
-   background-image: url(../Images/backgroundguys.jpg)no-repeat center center fixed;
-   background-size: width: 96%; height: 570px;
+   background-image: url(../Images/backgroundguys.jpg) no-repeat center center fixed;
  }
  header nav {
    padding:1em 0;
