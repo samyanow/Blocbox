@@ -136,9 +136,11 @@ html, body{
 
  /* BENEFITS */
  .benefits {
+   color: #FFFFFF;
    text-align: center;
    display:block;
    position:relative;
+   background: #474747;
  }
  .benefits ul {
    margin: 0 auto;
@@ -149,7 +151,7 @@ html, body{
    display: inline-block;
  }
  .benefits i {
-   color:#FFC55E;
+   color:#B8E986;
    font-size:60px;
    margin:0;
    vertical-align: middle;
