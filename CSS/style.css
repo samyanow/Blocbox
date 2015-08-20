@@ -2,15 +2,11 @@ html, body{
    overflow-x: hidden;
  }
  body {
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;   
    color:#474747;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: 'Montserrat', sans-serif;
-  }
- h1 {
-   text-shadow: 2px 2px #B8E986;
- }
+   font-family: 'Open Sans', sans-serif; }
  h2 {
    font-size:28px;
    font-weight: normal;
@@ -19,7 +15,7 @@ html, body{
  p {
    font-size:16px;
    line-height: 19px;
-   font-weight: 400;
+   font-weight: 100;
  }
 
  /* GRID */
@@ -40,13 +36,11 @@ html, body{
  }
  .one-half, .one-third, .one-fourth {
    width:96%;
-   float:right;
+   float:left;
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
  }
-
- /*<--Media queries-->*/
 
  @media (min-width: 768px) {
    .container {
@@ -70,11 +64,14 @@ html, body{
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
-  }
+   }
  @media (min-width: 2160px) {
    .container {
      width: 1760px;
    }
+
+ }
+
 
  /* HEADER */
  header {
@@ -99,8 +96,9 @@ html, body{
  header nav ul > li > a {
    color:#474747;
    text-decoration: none;
-}
-   header .hero {
+ }
+
+ header .hero {
    text-align: center;
    display:block;
    position: relative;
@@ -121,7 +119,7 @@ html, body{
    margin:3em auto 0;
  }
 
-  /* BUTTONS */
+ /* BUTTONS */
  .btn {
    border-radius: 10px;
    color:#474747;
