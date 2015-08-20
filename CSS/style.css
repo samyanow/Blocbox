@@ -70,8 +70,11 @@ html, body{
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
+  }
+ @media (min-width: 2160px) {
+   .container {
+     width: 1760px;
    }
- }
 
  /* HEADER */
  header {
@@ -96,6 +99,7 @@ html, body{
  header nav ul > li > a {
    color:#474747;
    text-decoration: none;
+}
    header .hero {
    text-align: center;
    display:block;
