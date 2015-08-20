@@ -151,19 +151,21 @@ html, body{
    display: inline-block;
  }
  .benefits i {
-   color:#B8E986;
+   color:#FFC55E;
    font-size:60px;
    margin:0;
    vertical-align: middle;
  }
  .benefits h2 {
-   color:#FFC55E;
+   color:#B8E986;
  }
 
  /* PRICING */
  .pricing {
+   color: #FFFFFF;
    background: #FFFFFF;
    background-size:cover;
+   text-shadow: 2px 2px #B8E986;
    text-align: center;
    padding:4em 0;
  }
@@ -206,7 +208,7 @@ html, body{
    font-size:50px;
    font-weight: normal;
    margin:40px 0 10px;
-   color:#3498DB;
+   color:#474747;
  }
  .box h4 span {
    font-size:32px;
@@ -242,9 +244,10 @@ html, body{
  .testimonials {
    padding:4em 0;
    text-align: center;
+   text-shadow: 2px 2px #FFC55E;
  }
  .testimonials h2 {
-   color:#3498DB;
+   color:#474747;
  }
  .testimonials ul li {
    list-style-type: none;
