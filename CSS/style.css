@@ -80,7 +80,7 @@ html, body{
  header {
    color:#474747;
    background: #E4F9FF;
-   background-image: url(../Images/backgroundguys.jpg) no-repeat center center fixed;
+   background-image: url(../Images/backgroundguys.jpg) no-repeat;
  }
  header nav {
    padding:1em 0;
@@ -121,7 +121,17 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
+.dashboard {
+  background-image: url("dashboard.png");
+  position: absolute;
+  left: 96px;
+  top: 282px;
+  width: 517px;
+  height: 329px;
+  z-index: 118;
+}
 
+}
  /* BUTTONS */
  .btn {
    border-radius: 10px;
