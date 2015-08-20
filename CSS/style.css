@@ -80,7 +80,7 @@ html, body{
  header {
    color:#474747;
    background: #E4F9FF;
-   background-image: url(backgroundguys.jpg);
+   background-image: url(../Images/backgroundguys.jpg);
  }
  header nav {
    padding:1em 0;
