@@ -121,15 +121,6 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
-.dashboard {
-  background-image: url("dashboard.png");
-  position: absolute;
-  left: 96px;
-  top: 282px;
-  width: 517px;
-  height: 329px;
-  z-index: 118;
-}
 
 }
  /* BUTTONS */
