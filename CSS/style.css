@@ -96,9 +96,7 @@ html, body{
  header nav ul > li > a {
    color:#474747;
    text-decoration: none;
- }
- header .hero {
-   float: right;
+   header .hero {
    text-align: center;
    display:block;
    position: relative;
