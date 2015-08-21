@@ -165,9 +165,8 @@ html, body{
  /* PRICING */
  .pricing {
    color: #FFFFFF;
-   background: #FFFFFF;
+   background: #474747;
    background-size:cover;
-   text-shadow: 2px 2px #B8E986;
    text-align: center;
    padding:4em 0;
  }
@@ -197,7 +196,7 @@ html, body{
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
    text-transform: uppercase;
-   background: #474747;
+   background: #B8E986;
    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
    left:0;
    right:0;
@@ -210,16 +209,16 @@ html, body{
    font-size:50px;
    font-weight: normal;
    margin:40px 0 10px;
-   color:#474747;
+   color:#FFFFFF;
  }
  .box h4 span {
-   font-size:32px;
+   font-size:36px;
    vertical-align: top;
  }
  .box h4 span.month {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", sans-serif;
    font-weight: 100;
-   color:#888888;
+   color:#FFFFFF;
    font-size:20px;
    vertical-align: middle;
  }
@@ -227,6 +226,7 @@ html, body{
    font-size:18px;
    margin-bottom:20px;
    font-weight: 100;
+   line-height: 120%;
  }
  .box .btn {
    position:absolute;
@@ -246,40 +246,27 @@ html, body{
  .testimonials {
    padding:4em 0;
    text-align: center;
-   text-shadow: 2px 2px #FFC55E;
+   background-color: #E9F5DD;
  }
  .testimonials h2 {
    color:#474747;
+   text-shadow: 2px 2px #FFC55E;
  }
  .testimonials ul li {
    list-style-type: none;
  }
  .testimonials blockquote {
-   color:#FFFFFF;
+   color:#474747;
    text-align: left;
-   font-style: italic;
-   background:#34495E;
+   font-style: normal;
    position: relative;
    padding:30px;
    width:auto;
    margin:0;
  }
- .testimonials blockquote:after {
-   top: 100%;
-   left: 13%;
-   border: solid transparent;
-   content: " ";
-   height: 0;
-   width: 0;
-   position: absolute;
-   pointer-events: none;
-   border-top-color: #34495E;
-   border-width: 10px;
-   margin-left: -10px;
- }
  .testimonials img {
-   height: 65px;
-   width: 65px;
+   height: 50px;
+   width: 50px;
    border-radius:50%;
    float: left;
    display: inline-block;
