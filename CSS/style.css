@@ -208,7 +208,7 @@ html, body{
    right:0;
    top:0;
    text-align: center;
-   margin:0 -25px 40px;
+   margin:0 -15px 40px;
    padding:20px 0;
  }
  .box h4 {
@@ -297,7 +297,7 @@ html, body{
  }
  footer nav ul li {
    list-style-type: none;
-   display: inline;
+   display: inline-block;
  }
  footer nav ul li a {
    color:#FFFFFF;
@@ -306,5 +306,5 @@ html, body{
  footer .logoKO{
    padding: 2.35em 0;
    margin: 0 auto;
-   display: block;
+   display: inline-block;
  }
