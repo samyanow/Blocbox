@@ -165,7 +165,7 @@ html, body{
  /* PRICING */
  .pricing {
    color: #FFFFFF;
-   background: #474747;
+   background: #FFFFFF;
    background-size:cover;
    text-align: center;
    padding:4em 0;
@@ -183,6 +183,7 @@ html, body{
  .box {
    padding:0 15px 15px;
    background: #474747;
+   border-radius: 10px;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
    min-height: 439px;
    position: relative;
@@ -234,12 +235,6 @@ html, body{
    left:20px;
    right:20px;
  }
- .small {
-   font-size: 12px;
-   color: #B8E986;
-   line-height: 15px;
-   font-style:italic;
- }
 
 
  /* TESTIMONIALS */
@@ -270,7 +265,7 @@ html, body{
    border-radius:50%;
    float: left;
    display: inline-block;
-   margin:20px 10px 0 0;
+   margin:10px 10px 0 0;
  }
  .testimonials p.name {
    float: left;
