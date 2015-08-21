@@ -172,6 +172,7 @@ html, body{
  }
  .pricing h2, .pricing p {
    color:#474747;
+   text-shadow: 2px 2px #B8E986;
  }
  .pricing ul {
    margin:0 auto;
@@ -183,7 +184,7 @@ html, body{
  .box {
    padding:0 15px 15px;
    background: #474747;
-   border-radius: 10px;
+   border-radius: 30px;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
    min-height: 439px;
    position: relative;
@@ -197,13 +198,14 @@ html, body{
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
    text-transform: uppercase;
+   color: #474747;
    background: #B8E986;
    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
    left:0;
    right:0;
    top:0;
    text-align: center;
-   margin:0 -15px 40px;
+   margin:0 -25px 40px;
    padding:10px 0;
  }
  .box h4 {
@@ -255,7 +257,7 @@ html, body{
    text-align: left;
    font-style: normal;
    position: relative;
-   padding:30px;
+   padding:20px;
    width:auto;
    margin:0;
  }
@@ -272,5 +274,5 @@ html, body{
    display: inline-block;
    text-align: left;
    font-size:13px;
-   margin-top: 30px;
+   margin-top: 20px;
  }
