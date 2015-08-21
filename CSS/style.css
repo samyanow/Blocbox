@@ -294,6 +294,9 @@ html, body{
    font-weight:100;
    margin: 10px auto 0;
  }
+ footer nav ul {
+   padding-left: 0;
+ }
  footer nav ul li {
    list-style-type: none;
    display: inline-block;
@@ -302,8 +305,9 @@ html, body{
    color:#FFFFFF;
    text-decoration: none;
  }
- footer .logoKO{
+ footer .logo{
    padding: 2.35em 0;
    margin: 0 auto;
+   text-align: right;
    display: inline-block;
  }
