@@ -308,6 +308,5 @@ html, body{
  footer .logo{
    padding: 2.35em 0;
    margin: 0 auto;
-   text-align: right;
-   display: inline-block;
+   float: right;
  }
