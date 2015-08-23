@@ -45,37 +45,6 @@ html, body{
    margin:0 2% 20px;
  }
 
- @media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
- }
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
- @media (min-width: 2160px) {
-   .container {
-     width: 1760px;
-   }
-
- }
-
-
  /* HEADER */
  header {
    color:#474747;
@@ -123,7 +92,6 @@ html, body{
    margin:3em auto 0;
  }
 
-}
  /* BUTTONS */
  .btn {
    border-radius: 10px;
@@ -311,3 +279,33 @@ html, body{
    margin: 0 auto;
    float: right;
  }
+
+ /*Media Queriers */
+
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ @media (min-width: 2160px) {
+   .container {
+     width: 1760px;
+   }
