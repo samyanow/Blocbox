@@ -305,34 +305,39 @@ html, body{
    .container {
      width: 1170px;
    }
+}
  @media (min-width: 2160px) {
    .container {
      width: 1760px;
    }
+}
 
 
 
  /* DASHBOARD */
 
  .dashboard {
-   background:#E4F9FF;
+   background: #E4F9FF;
  }
+
  .left-nav {
    height: 100vh;
    width:14.66666667%;
    color:#FFFFFF;
+   border-left: 30px solid #E4F9FF;
    background: #474747;
    float:left;
+   padding-left: 20px;
    position: fixed;
    display:block;
  }
- .left-nav .logo {
+ .left-nav .site-logo {
    padding:20px 0;
-   background:#34495E;
    display:block;
    text-align: center;
  }
  .left-nav .items {
+   text-transform: uppercase;
    padding:0 6%;
  }
  .left-nav .items p {
@@ -340,7 +345,7 @@ html, body{
    text-transform: uppercase;
    font-size: 12px;
    color: #FFFFFF;
-   line-height: 15px;
+   line-height: 16px;
  }
  .left-nav .items ul {
    margin:0 0 40px;
@@ -355,6 +360,11 @@ html, body{
    text-decoration: none;
    font-weight: 100;
  }
+  .left-nav .items ul li a:active {
+   color:#B8E986;
+   text-decoration: none;
+   font-weight: 100;
+ }
  .left-nav .items ul li a i {
    color: #B8E986;
    font-size: 24px;
@@ -365,38 +375,32 @@ html, body{
 
 
  /* TOP RIGHT NAVBAR SETTINGS */
- .top-nav .settings {
-   position:absolute;
-   width:100%;
-   bottom:0;
-   left:0;
-   right:0;
+
+ #top-nav  {
+   float:right;
+   list-style: none;
    padding:10px 0;
  }
- .top-nav .settings img {
+ #top-nav img {
    height:35px;
    width:35px;
    border-radius: 50%;
    margin-left:10px;
    display: inline-block;
  }
- .top-nav .settings p {
-   display: inline-block;
-   vertical-align: top;
-   padding-top: 8px;
-   font-weight: 400;
-   margin:0 0 0 10px;
- }
- .top-nav .settings a {
+ #top-nav a {
    color:#474747;
    text-decoration: none;
    text-align: right;
-   float: right;
    margin-right:10px;
    margin-top:8px;
  }
+ #top-nav li {
+   display: inline-block;
+}
 
  /* CONTENT */
+
  .content {
    padding:6em 1% 1.5em;
    float:right;
@@ -407,11 +411,11 @@ html, body{
    margin:0 1% 20px;
  }
  .content .header h1 {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", sans-serif;
    font-weight: 100;
    margin:0 0 30px;
-   font-size: 36px;
-   color: #3498DB;
+   font-size: 42px;
+   color: #474747;
    line-height: 44px;
    float: left;
    display:inline-block;
@@ -427,8 +431,9 @@ html, body{
  }
  .item-box {
    display:block;
-   height:230px;
-   background: #FFFFFF;
+   height:200px;
+   background: #474747;
+   border-radius: 30px;
    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
    position: relative;
    overflow: hidden;
@@ -443,14 +448,14 @@ html, body{
    right:0;
  }
  .item-box h2 {
-   font-family: 'Lato', Helvetica, Arial, sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-weight: 700;
    font-size: 15px;
    line-height: 17px;
    margin:0;
  }
  .item-box h2 a {
-   color: #3498DB;
+   color: #B8E986;
    text-decoration: none;
  }
  .item-box h2 img {
@@ -461,12 +466,18 @@ html, body{
    margin-right:5px;
  }
  .item-box p {
+   font-family: 'Open Sans', sans-serif;
    font-size: 14px;
-   color: #333333;
+   color: #FFFFFF;
    line-height: 18px;
    margin:5px 0 0;
  }
 
+/*IMAGES*/
+
+ .Images {
+   background: #E4F9FF;
+ }
 
 
 /*MEDIA QUERIES FOR DASHBOARD*/
@@ -485,6 +496,7 @@ html, body{
      float:left;
      display:block;
    }
+
 
 /* Tablets */
  @media (min-width:768px) {
@@ -517,3 +529,4 @@ html, body{
      width:23%;
      margin:0 1% 25px;
    }
+
