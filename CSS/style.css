@@ -349,7 +349,7 @@ html, body{
  }
  .left-nav .items ul {
    margin:0 0 40px;
-   padding:0;
+   padding:10px;
  }
  .left-nav .items ul li {
    list-style-type: none;
@@ -369,6 +369,7 @@ html, body{
    color: #B8E986;
    font-size: 24px;
    width:16px;
+   padding-right:8px;
    text-align: center;
    margin-right:8px;
  }
@@ -414,6 +415,7 @@ html, body{
    font-family: "Montserrat", sans-serif;
    font-weight: 100;
    margin:0 0 30px;
+   padding-left: 40px;
    font-size: 42px;
    color: #474747;
    line-height: 44px;
@@ -427,17 +429,19 @@ html, body{
    width:96%;
    margin:0 2% 25px;
    float:left;
+   padding-left: 40px;
    display:block;
  }
  .item-box {
    display:block;
    height:200px;
+   width: 215px;
    background: #474747;
    border-radius: 30px;
    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
    position: relative;
    overflow: hidden;
-   padding:20px;
+   padding:25px;
  }
 .item-box > img {
    position:absolute;
