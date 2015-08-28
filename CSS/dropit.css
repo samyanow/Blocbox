@@ -22,7 +22,7 @@
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 100px;
+    min-width: 151px;
     list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
